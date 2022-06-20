@@ -16,10 +16,10 @@ $filter->row('label_name', function (Filter $filter) {
   $filter->equal('col_baz', 'time_filter')->date();
 });
 ```
-When you use filter `select`, the default `placeholder` is `trans('admin.choose')`, you can use `config` to change it.
+When you use filter presenter `select`, the default `placeholder` is `trans('admin.choose')`, you can use `config` to change it.
 ```php
 $filter->equal('col_bar')->select()->config('placeholder', 'select_label');
 ```
 
 
-:rotating_light: Not support `radio` `checkbox` filter.
+:rotating_light: Not support filter presenter `radio` `checkbox`.
