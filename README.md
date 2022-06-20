@@ -1,4 +1,4 @@
-laravel-admin Filter extension Row
+laravel-admin extension RowFilter
 ======
 A laravel-admin filter extension that enables multiple filters to be displayed on one row.
 
