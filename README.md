@@ -23,3 +23,7 @@ $filter->equal('col_bar')->select()->config('placeholder', 'select_label');
 
 
 :rotating_light: Not support filter presenter `radio` `checkbox`.
+
+License
+------------
+Licensed under [The MIT License (MIT)](LICENSE).
